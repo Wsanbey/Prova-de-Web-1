@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Layout 2</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="layout2.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Formulário</h1>
+            <p>Obrigado por preencher os dados.</p>
+        </header>
+        <form>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" placeholder="Informe seu nome" required />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Informe seu email" required />
+            </div>
+            <div>
+                <label for="number">Idade<span>(opcional)</span></label>
+                <input type="number" min="10" max="99" placeholder="Informe sua idade" />
+            </div>
+            <div>
+                <p>Qual opção melhor descreve seu papel corrente?</p>
+                <select required>
+                    <option disabled selected>Selecione o papel</option>
+                    <option value="0">Estudante</option>
+                    <option value="1">Emprego de tempo integral</option>
+                    <option value="2">Aprendiz de tempo integral</option>
+                    <option value="3">Prefiro não opinar</option>
+                    <option value="4">Outro</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Você recomenda esse produto?</p>
+                <label><input name="user-recommend" value="0" type="radio" checked />Certamente</label>
+                <label><input name="user-recommend" value="1" type="radio" />Talvez</label>
+                <label><input name="user-recommend" value="2" type="radio" />Não</label>
+            </div>
+
+            <div>
+                <p>Qual a característica principal?</p>
+                <select required>
+                    <option disabled selected>Selecione uma opção</option>
+                    <option value="0">Desafios</option>
+                    <option value="1">Projetos</option>
+                    <option value="2">Comunidade</option>
+                    <option value="3">Código aberto</option>
+                </select>
+            </div>
+
+            <div>
+                <p>
+                    O que você gostaria de melhorar?
+                    <span>(Selecione todas que aplicam)</span>
+                </p>
+                <label><input name="prefer" value="0" type="checkbox" />Projeto de Front-end</label>
+                <label><input name="prefer" value="1" type="checkbox" />Projeto de Back-end</label>
+                <label><input name="prefer" value="2" type="checkbox" />Visualização de Dados</label>
+                <label><input name="prefer" value="3" type="checkbox" />Desafios</label>
+                <label><input name="prefer" value="4" type="checkbox" />Comunidade de código aberto</label>
+                <label><input name="prefer" value="5" type="checkbox" />Vídeos</label>
+                <label><input name="prefer" value="6" type="checkbox" />Encontros</label>
+                <label><input name="prefer" value="7" type="checkbox" />Wiki</label>
+                <label><input name="prefer" value="8" type="checkbox" />Fórum</label>
+                <label><input name="prefer" value="9" type="checkbox" />Cursos adicionais</label>
+            </div>
+
+            <div>
+                <p>Comentários ou sugestões?</p>
+                <textarea placeholder="Informe seu comentário aqui..."></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submeter</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
