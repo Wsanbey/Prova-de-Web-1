@@ -13,14 +13,14 @@ cor #aaa. *OK*<br>
 -------------------------------------------------------------
 (d) (1,0) Incluir uma sombra no formulário. *OK* <br>
 ------------------------------------------------------------- 
-*Layout 2* <br>
+*Layout 2* <br> 
 
-(a) (1,0) A cor de fundo da página é lightblue, do formulário é darkblue, do botão é darkgreen. A<br>
-cor da fonte é lightgray.<br>
+(a) (1,0) A cor de fundo da página é lightblue, do formulário é darkblue, do botão é darkgreen. A<br> 
+cor da fonte é lightgray. *OK*<br>
 -------------------------------------------------------------
-(b) (1,5) A largura do formulário é de 720px e ele deve estar centralizado na página.<br>
+(b) (1,5) A largura do formulário é de 720px e ele deve estar centralizado na página. *OK*<br>
 -------------------------------------------------------------
-(c) (1,5) Campos de entrada de dados devem ocupar toda a largura disponível.<br>
+(c) (1,5) Campos de entrada de dados devem ocupar toda a largura disponível. *OK*<br>
 -------------------------------------------------------------
 (d) (1,5) Campos de checkboxes e radio devem estar cada um em uma linha<br>
 -------------------------------------------------------------
