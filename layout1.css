@@ -5,7 +5,6 @@ h4 {
     margin: 0;
     padding: 0;
     text-decoration: none;
-
 }
 
 /* corpo */
@@ -13,6 +12,14 @@ body {
     align-items: center;
 }
 
+body,
+button {
+    background-color: #4CAF50;
+    color: #777;
+    border: #777;
+}
+
+/* texto */
 h3 {
     font-family: "Noto Sans", sans-serif;
     font-size: 35px;
@@ -24,20 +31,16 @@ h4 {
     font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     margin-bottom: 20px;
+    /* retirando negrito */
     font-weight: 100;
 }
 
-body,
-button {
-    background-color: #4CAF50;
-    color: #777;
-    border: #777;
-}
-
+/* formulario */
 form {
     background-color: #F9F9F9;
     width: 400px;
-    margin: auto;
+    
+    margin: 7% auto;
     padding: 22px;
     box-shadow: 8px 8px 25px rgba(30, 30, 30, 0.77);
 }

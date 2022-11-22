@@ -11,7 +11,7 @@
 (c) (1,0) O campos de entrada de dados quando estão em foco devem ficar com a borda com a
 cor #aaa. *OK*<br>
 -------------------------------------------------------------
-(d) (1,0) Incluir uma sombra no formulário. Layout 2<br>
+(d) (1,0) Incluir uma sombra no formulário. *OK* <br>
 ------------------------------------------------------------- 
 *Layout 2* <br>
 
