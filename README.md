@@ -4,13 +4,12 @@
 
 *Layout 1*
 
-(a) (1,0) A cor de fundo da página e do botão de submissão é #4CAF50 e do formulário é #F9F9F9.<br>
-A cor do texto é #777.<br>
+(a) (1,0) A cor de fundo da página e do botão de submissão é #4CAF50 e do formulário é #F9F9F9. A cor do texto é #777. *OK*<br>
 -------------------------------------------------------------
-(b) (1,5) A largura do formulário é de 400px e ele deve estar centralizado na página.<br>
+(b) (1,5) A largura do formulário é de 400px e ele deve estar centralizado na página.  *OK*<br> 
 -------------------------------------------------------------
-(c) (1,0) O campos de entrada de dados quando estão em foco devem car com a borda com a<br>
-cor #aaa.<br>
+(c) (1,0) O campos de entrada de dados quando estão em foco devem ficar com a borda com a
+cor #aaa. *OK*<br>
 -------------------------------------------------------------
 (d) (1,0) Incluir uma sombra no formulário. Layout 2<br>
 ------------------------------------------------------------- 
